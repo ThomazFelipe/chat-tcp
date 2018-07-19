@@ -15,7 +15,7 @@ public class Peer {
                 Scanner input = new Scanner(client.getInputStream());
 
                 while (input.hasNextLine()) {
-                    System.out.println(input.nextLine());
+                    System.out.println(client.getInetAddress().getHostAddress()" say: " + input.nextLine());
                 }
             } catch (IOException e) {
                 e.printStackTrace();

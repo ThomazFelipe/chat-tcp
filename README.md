@@ -10,4 +10,4 @@ Execute on terminal the follows commands:
 &&
 > java Peer
 
-Type IP's user which you wish connect and chat.
+Type IP's user which you wish connect and talk.
