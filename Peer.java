@@ -23,7 +23,7 @@ public class Peer {
         }).start();
 
         Scanner reader = new Scanner(System.in);    
-        System.out.print("Type user's IP which you want connect: ");
+        System.out.print("Type IP's user which you want connect: ");
         Socket client = new Socket(reader.nextLine(), 3322);
         System.out.println("The client connected!");
 
