@@ -1,2 +1,2 @@
 # chat-tcp
-Communication between two machines in same network
+Communication between many machines in same network
