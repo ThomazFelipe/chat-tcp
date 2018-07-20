@@ -6,7 +6,7 @@ public class Peer {
     public static void main(String[] args) throws UnknownHostException, IOException {
         new Thread(() -> {
             try {
-                ServerSocket server = new ServerSocket(3323);
+                ServerSocket server = new ServerSocket(3322);
                 System.out.println("Server initialized in port 3322");
 
                 Socket client = server.accept();
